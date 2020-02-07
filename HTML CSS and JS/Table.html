@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<!--Name: Christopher Padilla
+		Date: 9 July 2019
+		Purpose: A table of square and cube number.
+		-->
+
+	<head>
+		<title>Square and Cube</title>  
+		<meta charset="UTF-8">
+	</head>
+	<style>
+		body {
+			text-align: center;
+			font-family: Helvetica, sans-serif;
+			background-color: #ccd2c7;
+			}
+		table {
+			text-align: center;
+			border-spacing: 4px;
+			margin-left: auto;
+			margin-right: auto;			
+			}			
+		th {
+			background-color: #274352;
+			color: #ffffff;
+			padding: 25px;
+			margin: 5px;
+			border: 1px black solid;
+			box-shadow: 5px 5px 8px #888888;
+			}
+		td {
+			background-color: #84ec86;
+			padding: 15px;
+			margin: 5px;
+			border: 1px #76d677 solid;
+			box-shadow: 5px 5px 8px #888888;
+			}
+		button {
+			background-color: #21a7c3;
+			border: none;
+			color: white;
+			padding: 15px 32px;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+			box-shadow: 5px 5px 8px #888888;
+		}
+			
+	</style>
+
+	<body>	
+	
+		<table id="mainTable">
+		
+			<tr>
+				<th> NUMBER 
+				<th> SQUARE
+				<th> CUBE
+			</tr>
+
+		</table>
+		<button onClick="addRow();">More</button>
+			
+		<script src="script.js"></script>
+		<script language="javascript">
+			insertInitialRows();
+		</script>		
+	</body>
+</html>
